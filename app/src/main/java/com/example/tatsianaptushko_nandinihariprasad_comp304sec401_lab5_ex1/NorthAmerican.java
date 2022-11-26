@@ -44,6 +44,11 @@ public class NorthAmerican extends AppCompatActivity {
                         intent.putExtra("lat",43.51513);
                         intent.putExtra("lng",-79.88135);
                         intent.putExtra("title", "Halifax Donair");
+
+                    case "Antler Kitchen and Bar":
+                        intent.putExtra("lat",43.64974);
+                        intent.putExtra("lng",-79.43057);
+                        intent.putExtra("title", "Antler Kitchen and Bar");
                         break;
 
                 }
