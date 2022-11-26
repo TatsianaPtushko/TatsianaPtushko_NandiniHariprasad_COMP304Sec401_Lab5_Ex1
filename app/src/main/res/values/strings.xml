@@ -4,10 +4,11 @@
     <string name="ItalianCuisine">Italian Cuisine Restaurants </string>
 
     <string-array name="italian_restaurants">
-        <item>Sugo	(1279 Bloor Street West)	</item>
+        <item>Sugo</item>
         <item>Bitondo’s Pizzeria	(11 Clinton Street)	</item>
         <item>Terroni	(720 Queen Street West)	</item>
-        <item> Death in Venice  (1418 Dundas Street West) </item>
+        <item>Death in Venice  (1418 Dundas Street West) </item>
     </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>
