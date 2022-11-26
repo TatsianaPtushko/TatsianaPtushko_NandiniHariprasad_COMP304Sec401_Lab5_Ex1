@@ -5,6 +5,7 @@
     <string name="GreekCuisine">Greek Cuisine Restaurants </string>
     <string name="IndianCuisine">Indian Cuisine Restaurants </string>
     <string name="NorthAmericanCuisine">North American Cuisine Restaurants </string>
+    <string name="ThaiCuisine">Thai Cuisine Restaurants </string>
     <string name="title_activity_maps">MapsActivity</string>
 
     <string-array name="italian_restaurants">
