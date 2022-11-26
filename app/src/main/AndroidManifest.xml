@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TatsianaPtushko_NandiniHariprasad_COMP304Sec401_Lab5_Ex1">
-
+        <activity
+            android:name=".Indian"
+            android:exported="false" />
+        <activity
+            android:name=".Greek"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
