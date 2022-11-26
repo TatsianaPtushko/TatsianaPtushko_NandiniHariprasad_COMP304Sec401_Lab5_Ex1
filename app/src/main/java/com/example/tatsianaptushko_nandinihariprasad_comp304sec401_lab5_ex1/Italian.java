@@ -30,14 +30,14 @@ public class Italian extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String selectedItem = (String) parent.getItemAtPosition(position);
+                Intent intent =new Intent(Italian.this, MapsActivity.class);
 
                 switch (selectedItem) {
                     case "Sugo":
-                        Intent intent =new Intent(Italian.this, MapsActivity.class);
                         intent.putExtra("lat",43.65829);
                         intent.putExtra("lng",-79.44232);
                         intent.putExtra("title", "Sugo");
-                        startActivity(intent);
+
                         break;
                     case "Bitondo’s Pizzeria":
                         //     Intent intent2 =new Intent(CuisineList.this, Greek.class);
@@ -54,7 +54,7 @@ public class Italian extends AppCompatActivity {
                         break;
                 }
 
-
+                startActivity(intent);
             }
         });
 
