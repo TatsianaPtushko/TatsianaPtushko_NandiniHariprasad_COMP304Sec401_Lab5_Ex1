@@ -10,15 +10,14 @@
         <item>Terroni</item>
         <item>Death in Venice</item>
     </string-array>
-
-
+    
     <string-array name = "greek_restaurants">
         <item>Mamakas Taverna (80 Ossington Avenue)</item>
         <item>Athens Pastries (509 Danforth Avenue)</item>
         <item>Ballissimo Loukoumades Bar (1027 Coxwell Avenue)</item>
     </string-array>
-
-    <string-array name = "chinese_restaurants">
+    
+    <string-array name="chinese_restaurants">
         <item>Kroran Uyghur Cuisine (1515 Birchmount Road, Unit 6)</item>
         <item>Charcoal Kebab House (3256 Lawrence Avenue East)</item>
         <item>Dream Yunnan (45 Baldwin Street)</item>
@@ -39,13 +38,6 @@
         <item>Antler Kitchen and Bar (1454 Dundas Street West)</item>
     </string-array>
 
-    <string-array name="mexican_restaurants">
-        <item>Comal y Canela (1692B Jane Street)</item>
-        <item>Sinaloa Factory (350 Woodbridge Avenue Unit 3, Vaughan)</item>
-        <item>Taqueria Gus (225 Augusta Avenue)</item>
-        <item>Tita's Mexican Food (2491 Lake Shore Boulevard West, Unit 7)</item>
-    </string-array>
-
     <string-array name="vietnamese_restaurants">
         <item>Phở Sơn (2319 Keele Street, Unit 100)</item>
         <item>Bong Lua Vietnamese Restaurant (2572 Birchmount Road)</item>
@@ -59,4 +51,14 @@
         <item>Eat BKK (4704 Yonge Street)</item>
         <item>Koh Lipe (35 Baldwin Street)</item>
     </string-array>
+
+    <string-array name="mexican_restaurants">
+        <item>Comal y Canela (1692B Jane Street)</item>
+        <item>Sinaloa Factory (350 Woodbridge Avenue Unit 3, Vaughan)</item>
+        <item>Taqueria Gus (225 Augusta Avenue)</item>
+        <item>Titas Mexican Food (2491 Lake Shore Boulevard West, Unit 7)</item>
+    </string-array>
+
+
+
 </resources>
