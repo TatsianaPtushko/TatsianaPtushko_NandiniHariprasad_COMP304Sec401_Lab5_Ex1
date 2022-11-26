@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TatsianaPtushko_NandiniHariprasad_COMP304Sec401_Lab5_Ex1">
         <activity
+            android:name=".Chinese"
+            android:exported="false" />
+        <activity
+            android:name=".Vietnamese"
+            android:exported="false" />
+        <activity
+            android:name=".Mexican"
+            android:exported="false" />
+        <activity
             android:name=".Thai"
             android:exported="false" />
         <activity

@@ -7,6 +7,9 @@
     <string name="NorthAmericanCuisine">North American Cuisine Restaurants </string>
     <string name="ThaiCuisine">Thai Cuisine Restaurants </string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="ChineseCuisine">Chinese Cuisine Restaurants </string>
+    <string name="MexicanCuisine">Mexican Cuisine Restaurants </string>
+    <string name="VietnameseCuisine">Vietnamese Cuisine Restaurants </string>
 
     <string-array name="italian_restaurants">
         <item>Sugo</item>

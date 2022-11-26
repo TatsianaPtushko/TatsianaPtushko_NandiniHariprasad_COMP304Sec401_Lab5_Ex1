@@ -18,6 +18,7 @@ public class Indian extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_indian);
 
+        restaurantsArray = getResources().getStringArray(R.array.indian_restaurants);
         listView = (ListView)findViewById(R.id.IndianListView);
         // Create an ArrayAdapter that will contain all list items
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_list_view, R.id.textView, restaurantsArray);

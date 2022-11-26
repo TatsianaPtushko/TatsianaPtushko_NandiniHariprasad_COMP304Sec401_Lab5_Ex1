@@ -19,6 +19,7 @@ public class Italian extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_italian);
+
         restaurantsArray = getResources().getStringArray(R.array.italian_restaurants);
 
         listView = (ListView)findViewById(R.id.listView2);

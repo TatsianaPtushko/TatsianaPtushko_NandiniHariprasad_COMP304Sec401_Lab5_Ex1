@@ -35,12 +35,33 @@ public class CuisineList extends AppCompatActivity {
                             startActivity(intent);
                         break;
                     case "Greek":
-                        //     Intent intent2 =new Intent(CuisineList.this, Greek.class);
-                        //     startActivity(intent2);
+                             Intent intent2 =new Intent(CuisineList.this, Greek.class);
+                             startActivity(intent2);
                         break;
                     case "Chinese":
-                        //     Intent intent3 =new Intent(CuisineList.this, Chinese.class);
-                        //      startActivity(intent3);
+                             Intent intent3 =new Intent(CuisineList.this, Chinese.class);
+                              startActivity(intent3);
+                        break;
+                    case "Indian":
+                            Intent intent4 =new Intent(CuisineList.this, Indian.class);
+                              startActivity(intent4);
+                        break;
+
+                    case "North American":
+                             Intent intent5 =new Intent(CuisineList.this, NorthAmerican.class);
+                              startActivity(intent5);
+                        break;
+                    case "Mexican":
+                             Intent intent6 =new Intent(CuisineList.this, Mexican.class);
+                              startActivity(intent6);
+                        break;
+                    case "Vietnamese":
+                             Intent intent7 =new Intent(CuisineList.this, Vietnamese.class);
+                              startActivity(intent7);
+                        break;
+                    case "Thai":
+                             Intent intent8 =new Intent(CuisineList.this, Thai.class);
+                              startActivity(intent8);
                         break;
 
                 }

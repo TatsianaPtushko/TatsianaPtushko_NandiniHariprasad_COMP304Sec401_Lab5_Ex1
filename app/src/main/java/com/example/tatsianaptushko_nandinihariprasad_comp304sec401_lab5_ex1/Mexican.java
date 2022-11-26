@@ -9,17 +9,18 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class Thai extends AppCompatActivity {
-    //RecyclerView listView;
+public class Mexican extends AppCompatActivity {
+
     ListView listView;
     String[] restaurantsArray ;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_thai);
+        setContentView(R.layout.activity_mexican);
 
-        restaurantsArray = getResources().getStringArray(R.array.thai_restaurants);
-        listView = (ListView)findViewById(R.id.ThaiListView);
+        restaurantsArray = getResources().getStringArray(R.array.mexican_restaurants);
+        listView = (ListView)findViewById(R.id.listView_mexican);
         // Create an ArrayAdapter that will contain all list items
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_list_view, R.id.textView, restaurantsArray);
         listView.setAdapter(arrayAdapter);
@@ -28,35 +29,37 @@ public class Thai extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String selectedItem = (String) parent.getItemAtPosition(position);
-                Intent intent =new Intent(Thai.this, MapsActivity.class);
+                Intent intent =new Intent(Mexican.this, MapsActivity.class);
+
 
                 switch (selectedItem) {
-                    case "Lamoon Thai Cafe":
-                        intent.putExtra("lat",43.66625);
-                        intent.putExtra("lng",-79.34803);
-                        intent.putExtra("title", "Lamoon Thai Cafe");
+                    case "Comal y Canela":
+                        intent.putExtra("lat",43.70330);
+                        intent.putExtra("lng",-79.50417);
+                        intent.putExtra("title", "Comal y Canela");
                         break;
-                    case "Pai":
-                        intent.putExtra("lat",43.64783);
-                        intent.putExtra("lng",-79.38864);
-                        intent.putExtra("title", "Pai");
+                    case "Sinaloa Factory":
+                        intent.putExtra("lat",43.78414);
+                        intent.putExtra("lng",-79.60043);
+                        intent.putExtra("title", "Sinaloa Factory");
                         break;
-                    case "Eat BKK":
-                        intent.putExtra("lat",43.75923);
-                        intent.putExtra("lng",-79.41075);
-                        intent.putExtra("title", "Eat BKK");
-                        break;
-
-                    case "Koh Lipe":
-                        intent.putExtra("lat",43.65586);
-                        intent.putExtra("lng",-79.39344);
-                        intent.putExtra("title", "Koh Lipe");
+                    case "Taqueria Gus":
+                        intent.putExtra("lat",43.65440);
+                        intent.putExtra("lng",-79.40179);
+                        intent.putExtra("title", "Taqueria Gus");
                         break;
 
+                    case "Titas Mexican Food":
+                        intent.putExtra("lat",43.61279);
+                        intent.putExtra("lng",-79.48935);
+                        intent.putExtra("title", "Titas Mexican Food");
+                        break;
                 }
 
                 startActivity(intent);
             }
         });
+
+
     }
 }

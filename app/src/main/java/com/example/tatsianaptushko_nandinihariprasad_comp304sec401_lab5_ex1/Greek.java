@@ -18,6 +18,7 @@ public class Greek extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_greek);
 
+        restaurantsArray = getResources().getStringArray(R.array.greek_restaurants);
         listView = (ListView)findViewById(R.id.GreekListView);
         // Create an ArrayAdapter that will contain all list items
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_list_view, R.id.textView, restaurantsArray);
