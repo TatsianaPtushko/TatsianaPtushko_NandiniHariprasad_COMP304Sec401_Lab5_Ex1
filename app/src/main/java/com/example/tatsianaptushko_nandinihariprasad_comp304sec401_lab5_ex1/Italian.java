@@ -37,20 +37,22 @@ public class Italian extends AppCompatActivity {
                         intent.putExtra("lat",43.65829);
                         intent.putExtra("lng",-79.44232);
                         intent.putExtra("title", "Sugo");
-
                         break;
                     case "Bitondo’s Pizzeria":
-                        //     Intent intent2 =new Intent(CuisineList.this, Greek.class);
-                        //     startActivity(intent2);
+                        intent.putExtra("lat",43.65412);
+                        intent.putExtra("lng",-79.41325);
+                        intent.putExtra("title", "Bitondo’s Pizzeria");
                         break;
                     case "Terroni":
-                        //     Intent intent3 =new Intent(CuisineList.this, Chinese.class);
-                        //      startActivity(intent3);
+                        intent.putExtra("lat",43.64629);
+                        intent.putExtra("lng",-79.40916);
+                        intent.putExtra("title", "Terroni");
                         break;
 
                     case "Death in Venice":
-                        //     Intent intent3 =new Intent(CuisineList.this, Chinese.class);
-                        //      startActivity(intent3);
+                        intent.putExtra("lat",43.64973);
+                        intent.putExtra("lng",-79.42931);
+                        intent.putExtra("title", "Death in Venice");
                         break;
                 }
 

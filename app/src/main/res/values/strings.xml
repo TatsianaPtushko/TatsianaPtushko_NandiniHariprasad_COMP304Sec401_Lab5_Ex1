@@ -2,13 +2,20 @@
     <string name="app_name">TatsianaPtushko_NandiniHariprasad_COMP304Sec401_Lab5_Ex1</string>
 
     <string name="ItalianCuisine">Italian Cuisine Restaurants </string>
+    <string name="title_activity_maps">MapsActivity</string>
 
     <string-array name="italian_restaurants">
         <item>Sugo</item>
-        <item>Bitondo’s Pizzeria	(11 Clinton Street)	</item>
-        <item>Terroni	(720 Queen Street West)	</item>
-        <item>Death in Venice  (1418 Dundas Street West) </item>
+        <item>Bitondo’s Pizzeria</item>
+        <item>Terroni</item>
+        <item>Death in Venice</item>
     </string-array>
-    <string name="title_activity_maps">MapsActivity</string>
+
+
+    <string-array name = "greek_restaurants">
+        <item>Mamakas Taverna (80 Ossington Avenue)</item>
+        <item>Athens Pastries (509 Danforth Avenue)</item>
+        <item>Ballissimo Loukoumades Bar (1027 Coxwell Avenue)</item>
+    </string-array>
 
 </resources>
