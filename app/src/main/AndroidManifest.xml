@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TatsianaPtushko_NandiniHariprasad_COMP304Sec401_Lab5_Ex1">
         <activity
+            android:name=".NorthAmerican"
+            android:exported="false" />
+        <activity
             android:name=".Indian"
             android:exported="false" />
         <activity
