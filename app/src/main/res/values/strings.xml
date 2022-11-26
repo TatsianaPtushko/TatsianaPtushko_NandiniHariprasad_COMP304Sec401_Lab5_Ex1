@@ -18,4 +18,45 @@
         <item>Ballissimo Loukoumades Bar (1027 Coxwell Avenue)</item>
     </string-array>
 
+    <string-array name = "chinese_restaurants">
+        <item>Kroran Uyghur Cuisine (1515 Birchmount Road, Unit 6)</item>
+        <item>Charcoal Kebab House (3256 Lawrence Avenue East)</item>
+        <item>Dream Yunnan (45 Baldwin Street)</item>
+        <item>Taste of Guang Xi (388 Spadina Avenue )</item>
+    </string-array>
+
+    <string-array name="indian_restaurants">
+        <item>The Host (14 Prince Arthur Avenue)</item>
+        <item>Avani (801 Matheson Boulevard West, Unit 1, Mississauga)</item>
+        <item>The Maharaja (4646 Heritage Hills Boulevard, Unit 3, Mississauga)</item>
+        <item>Sabras (3478 Lawrence Avenue East)</item>
+    </string-array>
+
+    <string-array name="northamerican_restaurants">
+        <item>Richmond Station (1 Richmond Street West)</item>
+        <item>Pow Wow Cafe (213 Augusta Avenue)</item>
+        <item>Halifax Donair (295 Main Street East, Milton)</item>
+        <item>Antler Kitchen and Bar (1454 Dundas Street West)</item>
+    </string-array>
+
+    <string-array name="mexican_restaurants">
+        <item>Comal y Canela (1692B Jane Street)</item>
+        <item>Sinaloa Factory (350 Woodbridge Avenue Unit 3, Vaughan)</item>
+        <item>Taqueria Gus (225 Augusta Avenue)</item>
+        <item>Tita's Mexican Food (2491 Lake Shore Boulevard West, Unit 7)</item>
+    </string-array>
+
+    <string-array name="vietnamese_restaurants">
+        <item>Phở Sơn (2319 Keele Street, Unit 100)</item>
+        <item>Bong Lua Vietnamese Restaurant (2572 Birchmount Road)</item>
+        <item>Đà Nẵng Restaurant (2725 Jane Street)</item>
+        <item>Pho Dau Bo (2437 Finch Avenue West, Unit 4)</item>
+    </string-array>
+
+    <string-array name="thai_restaurants">
+        <item>Lamoon Thai Cafe (713 Gerrard Street East)</item>
+        <item>Pai (18 Duncan Street)</item>
+        <item>Eat BKK (4704 Yonge Street)</item>
+        <item>Koh Lipe (35 Baldwin Street)</item>
+    </string-array>
 </resources>
