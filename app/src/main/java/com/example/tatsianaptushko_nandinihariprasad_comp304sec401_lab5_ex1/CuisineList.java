@@ -12,7 +12,7 @@ import android.widget.ListView;
 public class CuisineList extends AppCompatActivity {
 
     ListView listView;
-    String exerciseList[] = {"Italian", "Greek", "Chinese", "Indian", "North American", "Mexican", "Vietnamese","Thai"};
+    String cuisineList[] = {"Italian", "Greek", "Chinese", "Indian", "North American", "Mexican", "Vietnamese","Thai"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class CuisineList extends AppCompatActivity {
 
 
         listView = (ListView)findViewById(R.id.listView);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_list_view, R.id.textView, exerciseList);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, R.layout.activity_list_view, R.id.textView, cuisineList);
         listView.setAdapter(arrayAdapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -42,6 +42,7 @@ public class CuisineList extends AppCompatActivity {
                         //     Intent intent3 =new Intent(CuisineList.this, Chinese.class);
                         //      startActivity(intent3);
                         break;
+
                 }
             }
         });
